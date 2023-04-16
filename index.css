@@ -1,0 +1,36 @@
+body{
+    background-color: #81007f;
+}
+
+.main{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.card{
+    text-align: center;
+    border-radius: 25px;
+    margin: 1em;
+    padding: 1em;
+    background-color: #faf1f3;
+    width: 6cm;
+}
+.card h2{
+    font-weight: normal;
+    font-size: 0.4in;
+    text-shadow: 3px 3px 1px lightgrey;
+}
+.card p{
+    font-size: large;
+    font-weight: 300;
+}
+
+img {
+    margin: 0.1em;
+    vertical-align: middle;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px double black;
+  }
